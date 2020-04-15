@@ -224,7 +224,7 @@ class Cluster:
         b_blur = self.GaussianBlur(b.reshape(1,-1)) + 0.00001
         
 #        M=(a_blur + b_blur) / 2
-#        jsd = 0.5 * scipy.stats.entropy(a_blur.reshape(-1,), M.reshape(-1,)) + 0.5 * scipy.stats.entropy(b_blur.reshape(-1,), M.reshape(-1,))
+#        jsd = 0.5 * scipy.stats.entropy(a_blur.reshape(-1,), M.reshape(-1,)) + 90=0.5 * scipy.stats.entropy(b_blur.reshape(-1,), M.reshape(-1,))
         kl = scipy.stats.entropy(a_blur.reshape(-1,), b_blur.reshape(-1,))
         return kl
     
