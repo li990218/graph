@@ -169,21 +169,21 @@ mat_name5 = 'as-caida'
 mat_name6 = 'Linux_call_graph'
 
 
-# process(mat_path, mat_name1, grp_scale=100)
+process(mat_path, mat_name1, grp_scale=100, mtime=False)
 # process(mat_path, mat_name1, grp_scale=10, clst_rate=10, mode='norm')
 
-# process(mat_path, mat_name2, grp_scale=100)
+process(mat_path, mat_name2, grp_scale=400, mtime=False)
 # process(mat_path, mat_name2, grp_scale=10, clst_rate=10, mode='norm')
 
-# process(mat_path, mat_name3, grp_scale=100)
+process(mat_path, mat_name3, grp_scale=500, mtime=False)
 # process(mat_path, mat_name3, grp_scale=10, clst_rate=10, mode='norm')
 # process(mat_path, mat_name3, grp_scale=10, clst_rate=10, diag_ratio=20, mode='diag')
 
-# process(mat_path, mat_name4, mode='plain', mtime=False)
+process(mat_path, mat_name4, grp_scale=512, mode='plain', mtime=False)
 # process(mat_path, mat_name4, grp_scale=10, clst_rate=70, mode='norm')
 # process(mat_path, mat_name4, grp_scale=20, clst_rate=700, diag_ratio=20, mode='diag')
 
-# process(mat_path, mat_name5, mode='plain', mtime=False)
+process(mat_path, mat_name5, grp_scale=512, mode='plain', mtime=False)
 # process(mat_path, mat_name5, grp_scale=10, clst_rate=70, mode='norm', mtime=False)
 
 process(mat_path, mat_name6, grp_scale=512, mode='plain', mtime=False)
